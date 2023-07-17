@@ -1,0 +1,25 @@
+body{
+    padding:0;
+    margin: 0;
+    background-image: url(./Images/Object.png);
+    background-repeat: no-repeat;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px;
+}
+.nav-item{
+    display: flex;
+    gap:60px;
+}
+.nav-item a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+}
+a:hover{
+    color:orange;
+    cursor: pointer;
+}
