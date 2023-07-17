@@ -16,10 +16,91 @@ body{
 }
 .nav-item a{
     text-decoration: none;
-    color:#fff;
-    font-size: 18px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 a:hover{
     color:orange;
     cursor: pointer;
+}
+
+/* MAIN-SECTION */
+.section-header{
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+  
+}
+.section-header h1{
+    font-size: 70px;
+    font-weight: 700px;
+    letter-spacing:0.1em;
+    
+}
+.items{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.items p{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button{
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    color: #fff;
+    border: 1px solid #C271FF;
+    margin-top: 30px;
+}
+.section-Pros{
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+}
+.section-Pros h1{
+    color: #FFF;
+        font-family: Source Sans Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+.image-of-pros{
+    border-radius: 50%;
+}
+.image-container h3{
+    color: #FFF;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 27px;
+}
+.image-container p{
+    color: #FFF;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 24px;
+        
 }
